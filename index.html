@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- NAVBAR-->
+
+    <header>
+      <h1>Employee Interests Survey</h1>
+    </header>
+    <!--NAME FORM-->
+    <div class="main-container m-3">
+      <div class="container card">
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+          />
+          <label for="floatingInput">Enter your name</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+          />
+          <label for="floatingInput">Enter your department</label>
+        </div>
+        <!--TEXTAREA-->
+
+        <div class="form-floating mb-3">
+          <textarea
+            class="form-control"
+            placeholder="Leave a comment here"
+            id="floatingTextarea2"
+            style="height: 100px"
+          ></textarea>
+          <label for="floatingTextarea2"
+            >Tell us a little about youe self</label
+          >
+        </div>
+        <!--RADIOBOX-->
+
+        <section class="h6 border bg-white p-3 mb-3 rounded">
+          Do you like exercise at home?
+          <div class="form-check ms-3">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
+              Yes
+            </label>
+          </div>
+          <div class="form-check ms-3">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault2"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2"> No </label>
+          </div>
+        </section>
+        <!--CHECKBOX-->
+
+        <section class="align-items-center bg-white border mb-3 p-3 rounded">
+          <span class="h6"
+            >How do you like to read about your favorite topic?</span
+          >
+          <div class="btn-group" role="group">
+            <input
+              type="checkbox"
+              class="btn-check"
+              id="btncheck1"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="btncheck1">Book</label>
+
+            <input
+              type="checkbox"
+              class="btn-check"
+              id="btncheck2"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="btncheck2"
+              >Resource</label
+            >
+
+            <input
+              type="checkbox"
+              class="btn-check"
+              id="btncheck3"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="btncheck3">Apps</label>
+
+            <input
+              type="checkbox"
+              class="btn-check"
+              id="btncheck4"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="btncheck4"
+              >Magazine</label
+            >
+          </div>
+        </section>
+        <!--SELECT-->
+
+        <select class="form-select bg-white mb-3 p-3">
+          <option selected>What is your favorite topic?</option>
+          <option value="1">Comady</option>
+          <option value="2">Romance</option>
+          <option value="3">Thriller</option>
+          <option value="4">Horror</option>
+          <option value="5">Biopic</option>
+        </select>
+        <!--SUBMIT-->
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
